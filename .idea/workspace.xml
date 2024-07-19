@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9839eb1d-5a6f-46fc-9dea-3aa8e54a2f81" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hSjcGoQYlynJIzl3XiBYZMJ1VJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/user/PhpstormProjects/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PHP"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9839eb1d-5a6f-46fc-9dea-3aa8e54a2f81" name="Changes" comment="" />
+      <created>1717594451518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717594451518</updated>
+      <workItem from="1717594452790" duration="20000" />
+      <workItem from="1717594481224" duration="2430000" />
+      <workItem from="1717788494661" duration="4699000" />
+      <workItem from="1718049090622" duration="1679000" />
+      <workItem from="1718101996277" duration="4106000" />
+      <workItem from="1718214388257" duration="1478000" />
+      <workItem from="1718555698662" duration="5071000" />
+      <workItem from="1718617842275" duration="6856000" />
+      <workItem from="1718641935132" duration="2649000" />
+      <workItem from="1718699504382" duration="743000" />
+      <workItem from="1719397367030" duration="2167000" />
+      <workItem from="1719426842852" duration="75000" />
+      <workItem from="1720513062710" duration="608000" />
+      <workItem from="1720514416083" duration="44000" />
+      <workItem from="1720514594187" duration="68000" />
+      <workItem from="1720514676967" duration="11000" />
+      <workItem from="1720874078506" duration="172000" />
+      <workItem from="1720953258979" duration="167000" />
+      <workItem from="1720953437829" duration="847000" />
+      <workItem from="1720954906805" duration="91000" />
+      <workItem from="1720972575560" duration="16000" />
+      <workItem from="1720973548435" duration="3245000" />
+      <workItem from="1720983111870" duration="1341000" />
+      <workItem from="1721036948620" duration="971000" />
+      <workItem from="1721040055325" duration="10126000" />
+      <workItem from="1721079167143" duration="78000" />
+      <workItem from="1721081160467" duration="1000" />
+      <workItem from="1721081187915" duration="1000" />
+      <workItem from="1721081847469" duration="1000" />
+      <workItem from="1721082061318" duration="2000" />
+      <workItem from="1721082122354" duration="1000" />
+      <workItem from="1721082203336" duration="3000" />
+      <workItem from="1721208989474" duration="2844000" />
+      <workItem from="1721221617781" duration="14234000" />
+      <workItem from="1721241911533" duration="3120000" />
+      <workItem from="1721390546294" duration="10898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
