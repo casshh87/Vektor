@@ -1,5 +1,6 @@
 <?php
 
+include 'Department.php';
 
-//include 'Employee.php';
-phpinfo();
+
+
