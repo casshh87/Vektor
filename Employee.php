@@ -3,21 +3,27 @@
 abstract class Employee
 {
     public $name;
-    public $salary;
-    public $coffee;
-    public $reports;
-    public $reports_name;
-    public $rank;
+    public float $salary;
+    public int $coffee;
+    public int $reports;
+    public string $reports_name;
+    public int $rank = 0; // Значение по умолчанию
 
-    public function __construct($name, $salary, $coffee, $reports, $reports_name, $rank)
+    public function __construct($name, $salary, $coffee, $reports, $reports_name)
     {
         $this->name = $name;
         $this->salary = $salary;
         $this->coffee = $coffee;
         $this->reports = $reports;
         $this->reports_name = $reports_name;
-        $this->rank = $rank;
 
+    }
+    public function getReports(): int {
+        return $this->reports;
+    }
+    public function setRank(int $rank): void //Добавляем динамическое свойство ранг
+    {
+        $this->rank = $rank;
         switch ($this->rank) {
             case 2:
                 $this->salary *= 1.25; // Увеличиваем на 25%
@@ -34,42 +40,76 @@ abstract class Employee
 class Manager extends Employee
 {
 
-}
-
-class Marketologist extends Employee
-{
-
-}
-
-class Engineer extends Employee
-{
-
-}
-
-class Analyst extends Employee
-{
-
-
-}
-
-
-class ManagerSupervisor extends Manager {
-
-    public function __construct($name, $salary, $coffee, $reports, $reports_name, $rank)
+    public function __construct($name = "Менеджер", $salary = 500, $coffee = 20, $reports = 200, $reports_name = 'отчеты')
     {
-        parent::__construct($name, $salary * 1.5, $coffee * 2, $reports, $reports_name, $rank); // Увеличиваем зарплату на 50%
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
     }
 
 }
 
-class MarketologistSupervisor extends Marketologist {
-
+class Marketologist extends Employee
+{
+    public function __construct($name = 'Маркетолог', $salary = 200, $coffee = 15, $reports = 150, $reports_name = 'отчеты')
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
+    }
 }
 
-class EngineerSupervisor extends Engineer {
-
+class Engineer extends Employee
+{
+    public function __construct($name = 'Инженер', $salary = 200, $coffee = 5, $reports = 50, $reports_name = 'чертежи')
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
+    }
 }
 
-class AnalystSupervisor extends Analyst {
+class Analyst extends Employee
+{
+    public function __construct($name = "Аналитик", $salary = 800, $coffee = 50, $reports = 5, $reports_name = "Стратегические исследования")
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
+    }
+}
 
+class ManagerSupervisor extends Manager
+{
+    public function __construct($name = 'Руководитель Менеджер', $salary=500, $coffee=20, $reports=200, $reports_name='отчеты')
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
+        $this->salary *= 2;
+        $this->coffee *= 2;
+    }
+}
+class MarketologistSupervisor extends Marketologist
+{
+    public function __construct($name='Руководитель Маректолог', $salary=200, $coffee=15, $reports=150, $reports_name='отчеты')
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name); // Используем конструктор родителя
+        ;$this->salary *= 2; // Удваиваем зарплату
+        $this->coffee *= 2; // Удваиваем количество кофе
+    }
+}
+
+class EngineerSupervisor extends Engineer
+{
+    public function __construct($name, $salary, $coffee, $reports, $reports_name)
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
+        $this->name = 'Руководитель Инженер';
+        $this->salary *= 2;
+        $this->coffee *= 2;
+
+    }
+}
+
+class AnalystSupervisor extends Analyst
+{
+    public function __construct($name, $salary, $coffee, $reports, $reports_name)
+    {
+        parent::__construct($name, $salary, $coffee, $reports, $reports_name);
+        $this->name = 'Руководитель Аналитик';
+        $this->salary *= 2;
+        $this->coffee *= 2;
+
+    }
 }
